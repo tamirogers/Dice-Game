@@ -30,7 +30,7 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
         diceDOM.style.display = 'block';
 
         //concats the name in html w/the number picked in dice variable
-        diceDOM.src = 'dice-' + dice + '.png';
+        diceDOM.src = 'images/dice-' + dice + '.png';
         // rolls two 6s
         if (dice === 6 && lastDice === 6) {
             //lose score
